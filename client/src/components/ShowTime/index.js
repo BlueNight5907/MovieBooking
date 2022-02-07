@@ -144,7 +144,7 @@ export default function ShowTime({open,handleClickOpen,handleClose}) {
           
           <Grid container direction='column' spacing={1} sx={{mt:0.5}}>
               {
-                data.theaters?.map((e,i)=>(
+                data?.theaters?.map((e,i)=>(
                   <Grid item xs={12} key={i}> 
                     <ShowTimeItem data={e}/>
                   </Grid>
